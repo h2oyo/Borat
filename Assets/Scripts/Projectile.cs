@@ -24,7 +24,7 @@ public class Projectile : MonoBehaviour {
         stretchLimit2 = stretchLimit * stretchLimit;
         proRig = GetComponent<Rigidbody2D>();
         CircleCollider2D circle = GetComponent<Collider2D>() as CircleCollider2D;
-        proRad = circle.radius;
+        //proRad = circle.radius;
     }
 	void Start () {
         DrawSling();
