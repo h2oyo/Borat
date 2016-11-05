@@ -22,5 +22,6 @@ public class ItemSwitch : MonoBehaviour {
             weapon01.SetActive(false);
             weapon02.SetActive(true);
         }
+       
     }
 }
