@@ -16,10 +16,11 @@ public class Asterioddestroy : MonoBehaviour {
 	}
     void OnCollisionEnter2D (Collision2D col)
     {
-     
-     
-            Destroy(gameObject, time);
+
+
+        gameObject.SetActive(false);
        
 
     }
 }
+ 
