@@ -63,13 +63,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Explosion.cs" />
-    <Compile Include="Assets\ItemSwitch.cs" />
     <Compile Include="Assets\Scripts\Asterioddestroy.cs" />
+    <Compile Include="Assets\Scripts\Bird.cs" />
+    <Compile Include="Assets\Scripts\Birdy.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Damage.cs" />
+    <Compile Include="Assets\Scripts\Enums.cs" />
+    <Compile Include="Assets\Scripts\Explosion.cs" />
+    <Compile Include="Assets\Scripts\ItemSwitch.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
-    <Compile Include="Assets\enemys.cs" />
+    <Compile Include="Assets\Scripts\bricks.cs" />
+    <Compile Include="Assets\Scripts\constant.cs" />
+    <Compile Include="Assets\Scripts\enemys.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
