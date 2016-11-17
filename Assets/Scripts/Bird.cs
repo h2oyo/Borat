@@ -35,10 +35,7 @@ public class Bird : MonoBehaviour
 
     public void OnThrow()
     {
-        //play the sound
-        GetComponent<AudioSource>().Play();
-        //show the trail renderer
-        GetComponent<TrailRenderer>().enabled = true;
+        print("1");
         //allow for gravity forces
         GetComponent<Rigidbody2D>().isKinematic = false;
         //make the collider normal size

@@ -15,6 +15,8 @@ public class Projectile : MonoBehaviour {
     private Rigidbody2D proRig;
     private Vector2 oldVelocity;
     private float proRad;
+
+    public GameObject BirdToThrow;
     void Awake()
     {
         springJoint = GetComponent<SpringJoint2D>();
@@ -37,6 +39,7 @@ public class Projectile : MonoBehaviour {
         {
            if(!proRig.isKinematic && oldVelocity.sqrMagnitude > proRig.velocity.sqrMagnitude)
             {
+                BirdToThrow.GetComponent<Bird>().OnThrow();
                 Destroy(springJoint);
                 proRig.velocity = oldVelocity;
          
