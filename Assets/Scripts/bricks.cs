@@ -15,7 +15,7 @@ public class bricks : MonoBehaviour
 
             Health -= damage;
 
-        if (Health <= 0) Destroy(this.gameObject);
+        if (Health <= 0) { GameState.Points += 10; Destroy(this.gameObject); }
     }
 
     public float Health;

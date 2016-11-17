@@ -45,8 +45,10 @@ public class Bird : MonoBehaviour
 
     IEnumerator DestroyAfter(float seconds)
     {
+       
         yield return new WaitForSeconds(seconds);
         Destroy(gameObject);
+       
     }
 
     public BirdState State

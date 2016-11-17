@@ -15,6 +15,7 @@ public class enemys : MonoBehaviour {
     {
         if(other.gameObject.tag == "Damage")
         {
+            GameState.Points += 100;
             counter++;
             Destroy(gameObject);
         }

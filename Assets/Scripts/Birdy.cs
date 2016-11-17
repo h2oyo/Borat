@@ -18,7 +18,9 @@ public class Birdy : MonoBehaviour
         //if we are hit by a bird
         if (col.gameObject.tag == "Bird")
         {
+
             Destroy(gameObject);
+
         }
         else //we're hit by something else
         {
@@ -29,7 +31,7 @@ public class Birdy : MonoBehaviour
 
 
 
-            if (Health <= 0) Destroy(this.gameObject);
+            if (Health <= 0) { GameState.Points += 100; Destroy(this.gameObject); }
         }
     }
 }
