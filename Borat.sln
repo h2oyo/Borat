@@ -1,7 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borat.CSharp", "Borat.CSharp.csproj", "{54617022-1FE7-EF23-2EB5-E9869CFCFFF4}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7188C7F6-3FC4-F3D2-06B3-1E7110076231}") = "Borat", "Assembly-CSharp.csproj", "{F365D157-5F36-C2C4-0C8F-01391371F4DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{54617022-1FE7-EF23-2EB5-E9869CFCFFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54617022-1FE7-EF23-2EB5-E9869CFCFFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54617022-1FE7-EF23-2EB5-E9869CFCFFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54617022-1FE7-EF23-2EB5-E9869CFCFFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F365D157-5F36-C2C4-0C8F-01391371F4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F365D157-5F36-C2C4-0C8F-01391371F4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F365D157-5F36-C2C4-0C8F-01391371F4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F365D157-5F36-C2C4-0C8F-01391371F4DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

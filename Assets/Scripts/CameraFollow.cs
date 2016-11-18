@@ -10,7 +10,7 @@ public class CameraFollow : MonoBehaviour {
     bool weapon1;
     bool weapon2;
     private float arrowX;
-    public float speed = 5.0f;
+    public float speed = 15.0f;
 
 	void Start()
     {
